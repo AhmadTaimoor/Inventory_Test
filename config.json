@@ -1,0 +1,4 @@
+{
+        "PORT": 8080,
+        "MONGO_CONNECTION": "mongodb+srv://At-S:123@mongo1-bnjqi.mongodb.net/Inventory_test"   
+}
