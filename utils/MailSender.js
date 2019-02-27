@@ -22,11 +22,6 @@ class MailSender {
         return response
     }
 
-    /**
-     * createTransporter
-     * Creates a nodemailer test account and transporter and returns a promise to resolve
-     * when the transporter is created.
-     */
     async createTransporter () {
         return new Promise((resolve, reject) => {
             nodemailer.createTestAccount((err, account) => {
@@ -35,7 +30,7 @@ class MailSender {
                    // host: 'server225.web-hosting.com',
                    auth: {
                     user: 'ahmad.suddle@gmail.com',
-                    pass: 'librasuddle12'
+                    pass: '**************'
                 },
                    port: 465,
                     secure: false,
